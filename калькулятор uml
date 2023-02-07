@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:35:26.471Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OCMU7Ffm89RlAULSnOsa" version="20.8.13" type="github">
+  <diagram name="Страница 1" id="iW5EE5qo2QJs9uYWzsnu">
+    <mxGraphModel dx="2419" dy="2968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;endSize=14;" edge="1" parent="1" source="skDjPDuGMJsYz7sCJkMK-1" target="skDjPDuGMJsYz7sCJkMK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="skDjPDuGMJsYz7sCJkMK-1" value="Calculator" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-1320" y="-1120" width="160" height="118" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="skDjPDuGMJsYz7sCJkMK-2" value="MainWindow" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-1520" y="-960" width="160" height="176" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-1" value="QMainWindow" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="-702" width="160" height="118" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-2" value="QWidget" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="-970" width="160" height="128" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="j-Jkhr9QWp0p7X-D3jVA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1360" y="-901" as="sourcePoint" />
+            <mxPoint x="-1330" y="-900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-4" value="" style="endArrow=block;html=1;rounded=0;exitX=0.458;exitY=-0.023;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;entryX=0.458;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="j-Jkhr9QWp0p7X-D3jVA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1447" y="-840" as="sourcePoint" />
+            <mxPoint x="-1330" y="-900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-5" value="Наследование" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="-760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-6" value="Агрегация" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="-1110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-7" value=" Ui::MainWindow" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="-790" width="160" height="118" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-8" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="j-Jkhr9QWp0p7X-D3jVA-7" target="skDjPDuGMJsYz7sCJkMK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1330" y="-900" as="sourcePoint" />
+            <mxPoint x="-1290" y="-870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1290" y="-731" />
+              <mxPoint x="-1290" y="-830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-9" value="Композиция" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="-784" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-12" value="Ассоциация" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-13" value="&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#800080;&quot;&gt;MainWindow&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;MainWindow&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;QWidget&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;parent&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;QMainWindow&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;parent&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#800000;&quot;&gt;ui&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#808000;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;Ui&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;MainWindow&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;{&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#800000;&quot;&gt;ui&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;setupUi&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#808000;&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="-680" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-14" value="&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#808000;&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;MainWindow&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#808000;&quot;&gt;public&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;QMainWindow&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="-770" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-15" value="&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#808000;&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;MainWindow&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#808000;&quot;&gt;public&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;QMainWindow&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;{&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#000080;&quot;&gt;Q_OBJECT&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;Calculator&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#800000;&quot;&gt;calc&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#008000;&quot;&gt;//создаем&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#008000;&quot;&gt;экземпляр&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#008000;&quot;&gt;класса&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1550" y="-1280" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j-Jkhr9QWp0p7X-D3jVA-17" value="&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#808000;&quot;&gt;public&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;:&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;MainWindow&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#800080;&quot;&gt;QWidget&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;*&lt;/span&gt;parent&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#808000;&quot;&gt;nullptr&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;&#xa;&lt;pre style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot;color:#c0c0c0;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;~&lt;/span&gt;&lt;span style=&quot;font-style:italic; color:#000000;&quot;&gt;MainWindow&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;();&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="-990" width="310" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
