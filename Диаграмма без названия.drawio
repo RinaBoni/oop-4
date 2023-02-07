@@ -1,106 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:11:26.864Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1DF2NZS0sj8UtSdKmQf9" version="20.8.13" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3088" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-01-14T06:32:47.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0" etag="kAwrNe1r15vrbP-KmC4O" version="20.5.1" type="github">
+  <diagram id="6-VBrLHjaqa2bFwfQni-" name="Страница 1">
+    <mxGraphModel dx="2645" dy="1305" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-9" value="DataBase" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1240" y="-1001" width="160" height="121" as="geometry">
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-2" value="Bot" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="61" y="-297" width="160" height="138" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-11" value="DataBaseController" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1514" y="-1001" width="160" height="121" as="geometry">
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-3" value="HelloAplication" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-219" y="-3" width="160" height="138" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-12" value="&lt;div&gt;Агрегация – это когда экземпляр двигателя создается где-то в другом месте кода, и передается в конструктор&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;автомобиля в качестве параметра.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Одна машина может соответствовать нескольким пассажирам. Кроме того, если всех пассажиров высадить&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;из машины, она продолжит спокойно функционировать.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1654" y="-680" width="824" height="88" as="geometry" />
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-4" value="Сontroller" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-219" y="-297" width="160" height="138" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-13" value="Композиция" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1348" y="-978" width="110" height="30" as="geometry" />
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-5" value="&lt;div&gt;Агрегация – это когда экземпляр двигателя создается где-то в другом месте кода, и передается в конструктор автомобиля в качестве параметра.&lt;/div&gt;&lt;div&gt;Одна машина может соответствовать нескольким пассажирам. Кроме того, если всех пассажиров высадить из машины, она продолжит спокойно функционировать.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-514.5" y="268" width="1037" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;targetPerimeterSpacing=0;shadow=0;endSize=18;startArrow=diamondThin;startFill=1;startSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="xB5QB-vrKaFaf7aGlxav-9" edge="1">
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-6" value="Наследование — это когда класс-наследник имеет все поля и методы родительского класса, и, как правило, добавляет какой-то новый функционал или/и поля. &lt;br&gt;Наследование описывает связь «является» (или по-английски «IS A»). Лев является Животным." style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-602.5" y="358" width="1213" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-7" value="&lt;div&gt;Композиция — более строгий тип связи. При использовании композиции объект не только является частью какого-то объекта, но и не может принадлежать другому объекту того же типа.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Самый простой пример — двигатель автомобиля. Двигатель является частью автомобиля, но не может быть частью другого автомобиля.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-703.5" y="437" width="1415" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-9" value="Агрегация" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="-275" width="93" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;strokeWidth=1;targetPerimeterSpacing=0;shadow=0;endSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KCeYdRw9fzAuJjBpCJq2-4" target="KCeYdRw9fzAuJjBpCJq2-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1354" y="-940" as="sourcePoint" />
-            <mxPoint x="-1129" y="-932" as="targetPoint" />
+            <mxPoint x="36" y="-262" as="sourcePoint" />
+            <mxPoint x="166" y="-228" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1280" y="-940" />
-              <mxPoint x="-1280" y="-940" />
+              <mxPoint x="67" y="-228" />
+              <mxPoint x="67" y="-228" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-18" value="DataBaseApplication" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1514" y="-840" width="160" height="120" as="geometry">
-            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-19" value="Application" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1240" y="-840" width="160" height="120" as="geometry">
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-11" value="Application" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="61" y="-4" width="160" height="140" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=13;endArrow=block;endFill=0;endSize=17;targetPerimeterSpacing=0;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xB5QB-vrKaFaf7aGlxav-19" target="xB5QB-vrKaFaf7aGlxav-18" edge="1">
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=13;endArrow=block;endFill=0;endSize=17;targetPerimeterSpacing=0;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KCeYdRw9fzAuJjBpCJq2-11" target="KCeYdRw9fzAuJjBpCJq2-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1313.7" y="-767" as="sourcePoint" />
-            <mxPoint x="-1363" y="-768" as="targetPoint" />
+            <mxPoint x="1.2999999999999545" y="70" as="sourcePoint" />
+            <mxPoint x="-48" y="69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Наследование&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1344" y="-806" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-22" value="Person" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1240" y="-1158" width="160" height="118" as="geometry">
-            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-23" value="NewPersonController" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1513.5" y="-1160" width="160" height="118" as="geometry">
-            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-24" value="Агрегация" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1344" y="-1032" width="93" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;targetPerimeterSpacing=0;shadow=0;endSize=18;startArrow=diamondThin;startFill=0;startSize=18;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="xB5QB-vrKaFaf7aGlxav-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1353" y="-1060" as="sourcePoint" />
-            <mxPoint x="-1128.5" y="-1111" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-1353" y="-1060" />
-              <mxPoint x="-1320" y="-1060" />
-              <mxPoint x="-1320" y="-990" />
-              <mxPoint x="-1240" y="-990" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Наследование — это когда класс-наследник имеет все поля и методы родительского класса, и, как правило, добавляет какой-то новый функционал или/и поля.&lt;br style=&quot;&quot;&gt;Наследование описывает связь «является» (или по-английски «IS A»). Лев является Животным.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1654" y="-550" width="820" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-31" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Композиция — более строгий тип связи. При использовании композиции объект не только является частью какого-то объекта, но и не может принадлежать другому объекту того же типа.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Самый простой пример — двигатель автомобиля. Двигатель является частью автомобиля, но не может быть частью другого автомобиля.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1652" y="-440" width="820" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xB5QB-vrKaFaf7aGlxav-33" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;fontSize=16;startSize=18;jumpSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;endSize=6;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xB5QB-vrKaFaf7aGlxav-11" target="xB5QB-vrKaFaf7aGlxav-23" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1568.5" y="-1060" as="sourcePoint" />
-            <mxPoint x="-1618.5" y="-1010" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-1540" y="-940" />
-              <mxPoint x="-1540" y="-1101" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i_o1P8Bed3vxHzPYiuYC-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xB5QB-vrKaFaf7aGlxav-23" target="xB5QB-vrKaFaf7aGlxav-22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1220" y="-1010" as="sourcePoint" />
-            <mxPoint x="-1270" y="-960" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i_o1P8Bed3vxHzPYiuYC-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ассоциация&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1630" y="-1042" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="i_o1P8Bed3vxHzPYiuYC-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ассоциация&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1327.5" y="-1140" width="60" height="30" as="geometry" />
+        <mxCell id="KCeYdRw9fzAuJjBpCJq2-13" value="Наследование" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-58.99999999999991" y="29.999999999999957" width="126" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
