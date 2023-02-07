@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.energyinterface.Controller">
+    <children>
+        <TextField fx:id="textField_Brand" layoutX="14.0" layoutY="31.0" />
+        <TextField fx:id="textField_Name" layoutX="14.0" layoutY="84.0" />
+        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Бренд" />
+        <Text layoutX="14.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Название" />
+        <TextField fx:id="textField_Taste" layoutX="14.0" layoutY="134.0" />
+        <Text layoutX="14.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вкус" />
+        <TextField fx:id="textField_Price" layoutX="14.0" layoutY="183.0" />
+        <Text layoutX="14.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена (руб)" />
+        <TextField fx:id="textField_EnergyValue" layoutX="14.0" layoutY="236.0" />
+        <Text layoutX="14.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Энерг. ценность (кдж)" />
+        <TextField fx:id="textField_Сaffeine" layoutX="14.0" layoutY="287.0" />
+        <Text layoutX="14.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кофеин (мг)" />
+        <TextField fx:id="textField_Taurine" layoutX="14.0" layoutY="343.0" />
+        <Text layoutX="14.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Таурин (мг)" />
+        <TextField fx:id="textField_Volume" layoutX="14.0" layoutY="398.0" />
+        <Text layoutX="14.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Объем (мл)" />
+        <Button fx:id="button_add" layoutX="46.0" layoutY="439.0" mnemonicParsing="false" onAction="#button_add_clicked" prefHeight="25.0" prefWidth="86.0" style="-fx-background-radius: 10; -fx-background-color: ea8df7; -fx-border-radius: 10;" text="Добавить" />
+        <TextArea fx:id="textArea" editable="false" layoutX="173.0" layoutY="6.0" prefHeight="493.0" prefWidth="299.0" />
+    </children>
+</AnchorPane>
